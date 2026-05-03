@@ -1,0 +1,16 @@
+Table 2.3.4U. Price Indexes for Personal Consumption Expenditures by Major Type of Product and by Major Function,,,,,,
+"[Index numbers, 2017=100; quarters and months are seasonally adjusted]",,,,,,
+Monthly data from 1959M01 to 2026M02,,,,,,
+Bureau of Economic Analysis,,,,,,
+"Data published April 9, 2026",,,,,,
+File created Apr  7 2026  4:32PM,,,,,,
+,,,,,,
+Line,,,1959M01,1959M02,2026M01,2026M02
+,Personal consumption expenditures by major type of product (From NIPA table 2.3.x):,,,,
+1,    Personal consumption expenditures (PCE),DPCERG,15.164,15.179,120.000,121.000
+2,Goods,DGDSRG,27.809,27.822,95.000,96.000
+3,  Durable goods,DDURRG,63.517,63.554,85.000,86.000
+4,    Motor vehicles and parts,DMOTRG,30.190,30.235,75.000,76.000
+5,    Furnishings and durable household equipment,DFDHRG,56.465,56.434,90.000,91.000
+6,    Recreational goods and vehicles,DREQRG,331.285,331.295,310.000,311.000
+7,    Other durable goods,DODGRG,33.292,33.343,88.000,89.000

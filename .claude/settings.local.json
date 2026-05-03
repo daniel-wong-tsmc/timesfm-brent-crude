@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(.\\\\.venv\\\\Scripts\\\\python.exe -m pip install --upgrade pip --quiet)",
+      "Bash(.\\\\.venv\\\\Scripts\\\\python.exe -m pip install pandas matplotlib fredapi pytest pytest-cov ipykernel jupyter nbformat --quiet)",
+      "WebFetch(domain:github.com)",
+      "PowerShell(& \"G:\\\\Coding\\\\For Work\\\\BUOD\\\\Brent_simulation\\\\TimesFM\\\\.venv\\\\Scripts\\\\python.exe\" -c \"import timesfm; print\\('timesfm version:', timesfm.__version__ if hasattr\\(timesfm, '__version__'\\) else 'unknown'\\); print\\('Has TimesFM_2p5_200M_torch:', hasattr\\(timesfm, 'TimesFM_2p5_200M_torch'\\)\\); print\\('Has ForecastConfig:', hasattr\\(timesfm, 'ForecastConfig'\\)\\)\")",
+      "PowerShell($env:END_CELL = \"8\"; & \"G:\\\\Coding\\\\For Work\\\\BUOD\\\\Brent_simulation\\\\TimesFM\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Coding\\\\For Work\\\\BUOD\\\\Brent_simulation\\\\TimesFM\\\\run_notebook.py\")",
+      "PowerShell($env:START_CELL = \"9\"; $env:END_CELL = \"11\"; & \"G:\\\\Coding\\\\For Work\\\\BUOD\\\\Brent_simulation\\\\TimesFM\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Coding\\\\For Work\\\\BUOD\\\\Brent_simulation\\\\TimesFM\\\\run_notebook.py\")",
+      "PowerShell(& \"G:\\\\Coding\\\\For Work\\\\BUOD\\\\Brent_simulation\\\\TimesFM\\\\.venv\\\\Scripts\\\\python.exe\" -m pip install \"timesfm[xreg]\" --upgrade 2>&1 | Select-Object -Last 30)",
+      "PowerShell(& \"G:\\\\Coding\\\\For Work\\\\BUOD\\\\Brent_simulation\\\\TimesFM\\\\.venv\\\\Scripts\\\\python.exe\" -m pip show jax jaxlib 2>&1 | Select-Object -Last 20)",
+      "PowerShell(& \"G:\\\\Coding\\\\For Work\\\\BUOD\\\\Brent_simulation\\\\TimesFM\\\\.venv\\\\Scripts\\\\python.exe\" -m pip install --upgrade \"jax[cpu]\" 2>&1 | Select-Object -Last 15)"
+    ]
+  }
+}
